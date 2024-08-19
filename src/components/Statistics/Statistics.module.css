@@ -1,0 +1,17 @@
+.goodResult {
+  color: green;
+}
+.neutralResult {
+  color: blue;
+}
+.badResult {
+  color: red;
+}
+.totalResult {
+  /* font-size: 1.125rem; */
+  font-weight: bold;
+}
+.positivePercentageResult {
+  composes: totalResult;
+  font-style: italic;
+}
